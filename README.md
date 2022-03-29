@@ -80,18 +80,18 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [redux-saga](https://redux-saga.js.org/)
 
 
-## Teste da aplicação
+## Teste da aplicação / application test
 <div align="center">
 <img alt="User" src="https://github.com/HenriqueVazquez/rocketShoes/blob/main/src/screenShot/TesteAplicacao.gif">
   </div>
 
 
-## Tela principal
+## Tela principal / Main screen
 <div align="center">
 <img alt="Main" src="https://github.com/HenriqueVazquez/rocketShoes/blob/main/src/screenShot/Main.png">
 </div>
 
-## Tela do cart.
+## Tela do cart / card screen
 <div align="center">
 <img alt="Cart" src="https://github.com/HenriqueVazquez/rocketShoes/blob/main/src/screenShot/Cart.png">
   </div>
@@ -101,5 +101,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
   <br>
   
   <p align="center">
-Feito por <a href="https://www.linkedin.com/in/henrique-vazquez-11905ab6" target="_blank"> Henrique Vazquez</a> :wink:
+Made by <a href="https://www.linkedin.com/in/henrique-vazquez-11905ab6" target="_blank"> Henrique Vazquez</a> :wink:
   </p>
