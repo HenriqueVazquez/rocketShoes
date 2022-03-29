@@ -22,12 +22,18 @@
   </a>
 </p>
 
+## Istalar Global / install global
+
+### `yarn global add json-server`
 
 ## Scripts Disponíveis / Available Scripts 
 
 No diretório do projeto, você pode executar:
 In the project directory, you can run:
 
+### `yarn`
+
+Cria a node_modules com as dependencias / Create node_modules with dependencies /**
 
 ### `yarn start`
 
@@ -58,6 +64,7 @@ I studied flux architecture in this module, an e-commerce application was built,
 This project was developed with the following technologies:
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
+- [NVDA](http://www.acessibilidadelegal.com/33-nvda.php)
 - [React](https://pt-br.reactjs.org/)
 - [Axios](https://axios-http.com/)
 - [Prop-Types](https://github.com/facebook/prop-types)
