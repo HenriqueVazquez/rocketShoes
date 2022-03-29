@@ -64,7 +64,7 @@ I studied flux architecture in this module, an e-commerce application was built,
 This project was developed with the following technologies:
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [NVDA](http://www.acessibilidadelegal.com/33-nvda.php)
+- [NVDA](http://www.al.es.gov.br/appdata/anexos_internet/portal/acessibilidade/nvda_manual.pdf)
 - [React](https://pt-br.reactjs.org/)
 - [Axios](https://axios-http.com/)
 - [Prop-Types](https://github.com/facebook/prop-types)
@@ -103,7 +103,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 <img alt="Cart" src="https://github.com/HenriqueVazquez/rocketShoes/blob/main/src/screenShot/Cart.png">
   </div>
   
+  ## Caso precise do leitor de tela para teste
   
+  https://aedmoodle.ufpa.br/mod/book/view.php?id=107176
   
   <br>
   
