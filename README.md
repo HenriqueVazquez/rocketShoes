@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img alt="GoStack" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-header.png" width="200px" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+  Aulas de Arquitetura Flux: Aplicação RocketShoes, utilizando redux, e saga.
+</h3>
 
-## Available Scripts
+<p align="center">“Sucesso não é o resultado de um jogo, mas o destino de uma jornada”!</blockquote>
 
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/HenriqueVazquez/rocketShoes?color=%2304D361">
+
+  <a href="https://www.linkedin.com/in/henrique-vazquez-11905ab6">
+    <img alt="Made by Henrique Vazquez" src="https://img.shields.io/badge/made%20by-HenriqueVazquez-%2304D361">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
+
+  <a href="https://github.com/HenriqueVazquez/rocketShoes/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/HenriqueVazquez/rocketShoes?style=social">
+  </a>
+</p>
+
+
+## Scripts Disponíveis / Available Scripts 
+
+No diretório do projeto, você pode executar:
 In the project directory, you can run:
+
 
 ### `yarn start`
 
+Executa o aplicativo no modo de desenvolvimento.\
 Runs the app in the development mode.\
+Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu navegador.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+A página será recarregada quando você fizer alterações.\
+Você também pode ver erros de lint no console.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `yarn test`
+### `yarn api`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Executa a api json para poder realizar o teste com os produtos e estoques cadastrados
+Run the json api to be able to perform the test with the registered products and stocks
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :rocket: Sobre a aula / about the class
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Estudei arquitetura flux nesse modulo, foi construido uma aplicação de um e-comerce, de venda de tênis, as informações entre os componentes e seus states são possiveis com o react-redux, para middlewares foi utilizado redux-saga, utilizamos varios exemplos para fazer controle de state e calculos, via saga, utilizando as actions para fazer a alteração nos states, que são escutadas pelos reducer, assim mantendo um state global e confiavel na aplicação e entre os componentes. Além do que foi estudado, implementei na aplicação acessibilidade, com os arial-label, e descrição nas imagens, foi testado essa acessibilidade com leitor de tela NVDA.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I studied flux architecture in this module, an e-commerce application was built, for selling sneakers, the information between the components and their states is possible with react-redux, for middlewares redux-saga was used, we used several examples to make state control and calculations, via saga, using actions to change the states, which are heard by the reducer, thus maintaining a global and reliable state in the application and between the components. In addition to what was studied, I implemented accessibility in the application, with the arial-label, and description in the images, this accessibility was tested with an NVDA screen reader.
 
-### `yarn eject`
+ ## Tecnologias / Technologies 💻
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project was developed with the following technologies:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [React](https://pt-br.reactjs.org/)
+- [Axios](https://axios-http.com/)
+- [Prop-Types](https://github.com/facebook/prop-types)
+- [react-icons](https://react-icons.github.io/react-icons/)
+- [history](https://github.com/remix-run/history/tree/dev/docs)
+- [immer](https://github.com/immerjs/immer)
+- [polished](https://polished.js.org/)
+- [styled-components](https://styled-components.com/)
+- [eslint](https://eslint.org/)
+- [prettier](https://eslint.org/)
+- [babel/core](https://github.com/babel/babel)
+- [react-dom](https://pt-br.reactjs.org/docs/react-dom.html)
+- [react-redux](https://react-redux.js.org/)
+- [react-router-dom](https://github.com/remix-run/react-router)
+- [react-toastify](https://fkhadra.github.io/react-toastify/introduction)
+- [reactotron-react-js](https://github.com/infinitered/reactotron)
+- [reactotron-redux](https://github.com/infinitered/reactotron)
+- [reactotron-redux](https://github.com/infinitered/reactotron/blob/master/docs/plugin-redux-saga.md)
+- [redux](https://react-redux.js.org/)
+- [redux-saga](https://redux-saga.js.org/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Teste da aplicação
+<div align="center">
+<img alt="User" src="https://github.com/HenriqueVazquez/rocketShoes/blob/main/src/screenShot/TesteAplicacao.gif">
+  </div>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Tela principal
+<div align="center">
+<img alt="Main" src="https://github.com/HenriqueVazquez/rocketShoes/blob/main/src/screenShot/Main.png">
+</div>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Tela do cart.
+<div align="center">
+<img alt="Cart" src="https://github.com/HenriqueVazquez/rocketShoes/blob/main/src/screenShot/Cart.png">
+  </div>
+  
+  
+  
+  <br>
+  
+  <p align="center">
+Feito por <a href="https://www.linkedin.com/in/henrique-vazquez-11905ab6" target="_blank"> Henrique Vazquez</a> :wink:
+  </p>
